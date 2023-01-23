@@ -1,0 +1,6 @@
+from pathlib import Path
+import json
+oggetto = Path('ListaNomiUser.json')
+da_legg = oggetto.read_text()
+da_legg_conv = json.loads(da_legg)
+print(da_legg_conv)
