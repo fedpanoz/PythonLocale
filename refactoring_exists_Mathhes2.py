@@ -21,7 +21,7 @@ def greet_user():
     if username:
         print(f'Welcome back {username}!\n')
     else:
-        username = get_stored_username()
+        username = get_new_username(path)
         print(f'We will remember {username}, next time you came back\n')
 
 
