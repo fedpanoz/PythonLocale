@@ -3,4 +3,4 @@ import json
 oggetto = Path('ListaNomiUser.json')
 da_legg = oggetto.read_text()
 da_legg_conv = json.loads(da_legg)
-print(da_legg_conv)
+print(f' Hello this is the list of users {da_legg_conv}')
