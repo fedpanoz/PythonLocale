@@ -1,1 +1,1 @@
-{'username': 'Alberto', 'password': 'Pistacchio987', 'birth_location': 'Boeghetto Lodigiano'}
+{'username': 'Pino', 'password': 'puzzola', 'birth_location': 'Loano'}

@@ -10,3 +10,4 @@ user_data = {'Username': username, 'Password': password, 'Birth_location': birth
 oggetto = Path('Dizionario.json')
 da_scrivere = json.dumps(user_data)
 oggetto.write_text(da_scrivere)
+print(user_data['Username'])
